@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* NAV*/
+nav{
+  width: 100%;
+  height: 60px;
+  background-color: #001B4F;
+  position: relative
+}
+nav ul{
+  list-style: none;
+  position: absolute;
+  left: 290px;
+  top: 33%;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 10px;
+  color: white;
+}
+.logo{
+  position: absolute;
+  top: 8px;
+  left: 120px;
+}
+ul.right{
+  list-style: none;
+  position: absolute;
+  left: 58%;
+  top: 33%;
+}
+.button{
+  border-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 6px 29px;
+  margin-right: 15px;
+}
+.invisible{
+  border-style: none;
+}
+.green{
+  border-style: none;
+  background-color: #32CD32;
+}
+/* header jumbo */
+.bg-header{
+  background-color: #001B4F;
+  padding-top: 70px;
+  padding-left: 30%;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.bg-image{
+  background-image: url('../img/bg_header.png');
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right -50px;
+}
+.col-100{
+  width: 100%;
+}
+.testo{
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  top: 115px;
+  left: 170px;
+}
+.button-header{
+  border-style: none;
+  background-color: #32CD32;
+  border-radius: 5px;
+  padding: 20px 29px;
+  position: absolute;
+  top: 75%;
+  left: 0;
+}
+div.testo a{
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+/* .clearfix  */
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* float */
+[class^="col-"]{
+  float: left;
+}
+.testo-header{
+  color: white;
+  font-size: 25px;
+  position: relative;
+}
+/* header sezione grigia */
+.bg-grey{
+  background-color: lightgrey;
+  height: 150px;
+  position: relative;
+}
+.text-solution{
+  width: 100%;
+}
+.text-solution h3{
+  font-size: 27px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+.text-solution p{
+  color: grey;
+  font-size: 20px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+/* Main */
+main{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.col-30{
+  width: calc(100% / 3);
+}
+.bg-white{
+  height: auto;
+  position: relative;
+}
+#profilo{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 35%);
+}
+#pc{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+#doc{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-70%, 60%);
+}
+.text-green{
+  color: #32CD32;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 280px;
+  padding-bottom: 50px;
+}
+.middle{
+  width: 80px;
+  margin-left: 152px;
+}
+.text-main{
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.all{
+  width: 120%;
+  margin-left: -10%;
+}
+/* seconda parte main */
+.col-50{
+  width: calc(100% / 2);
+  height: auto;
+}
+.col-50 img{
+  padding-top: 40px;
+}
+.text-black{
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 60px;
+  text-align: left;
+  padding-top: 60px;
+}
+.text-grey {
+  font-size: 20px;
+  color: grey;
+  text-align:left;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.link-placement{
+  font-size: 15px;
+  padding-left: 60px;
+  padding-top: 10px;
+  text-align: left;
+}
+/* FOOTER */
+.bg-lightgrey{
+  width: 100%;
+  height: 150px;
+  background-color: lightgrey;
+  position: relative;
+}
+.text-footer{
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 20%;
+}
+.text-gf{
+  font-size: 20px;
+  color: grey;
+  padding-top: 65px;
+  padding-left: 20%;
+}
+.text-gf span:first-child{
+  padding-right: 30px;
+}
+.text-gf span:last-child{
+  border-bottom: solid 2px;
+}
+.text-gf span:last-child::after{
+  content: '\25bc';
+  font-size: 10px;
+  color: grey;
+  padding-left: 40px;
+}
+.bottone-footer{
+  background-color: #32CD32;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: white;
+  position:absolute;
+  top: 33%;
+  left: 53%;
+}
+.button-page{
+  background-color: #32CD32;
+  border-radius: 5px;
+  padding: 10px 7px;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  left: 82%;
+  z-index: 2;
+}
